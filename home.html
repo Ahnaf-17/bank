@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <h1 class="text-5xl text-center mt-5">Here comes the <span class="font-semibold text-emerald-700">Money!! Money!Money!Money</span></h1>
+    </header>
+
+    <main>
+        <section class="mt-10">
+            <div class="grid grid-cols-3 gap-4 w-9/12 mx-auto">
+                <div class="bg-green-500 text-2xl text-white rounded-xl p-5">
+                    <h4 class="text-2xl">Deposit</h4>
+                    <h2 class="text-5xl">$00</h2>
+                </div>
+                <div class="bg-red-500 text-2xl text-white rounded-xl p-5">
+                    <h4 class="text-2xl">Withdrw</h4>
+                    <h2 class="text-5xl">$00</h2>
+                </div>
+                <div class="bg-orange-500 text-2xl text-white rounded-xl p-5">
+                    <h4 class="text-2xl">Total</h4>
+                    <h2 class="text-5xl">$1000</h2>
+                </div>
+                
+            </div>
+        </section>
+
+        <section>
+            <div class="grid grid-cols-2 gap-4 w-9/12 mx-auto mt-10">
+                <div class="bg-indigo-400 text-2xl text-white rounded-xl p-8">
+                    <h4 class="text-2xl mb-3">Please Deposit</h4>
+                        <input class="w-9/12 block mb-2 pl-2" type="email" name="" id="deposit-amount" placeholder="Account you want to deposit">
+                        <button id="deposit" class="bg-blue-500 text-white py-1 px-3 rounded font-semibold hover:bg-sky-800">Deposit</button>
+                </div>
+                <div class="bg-indigo-300 text-2xl text-white rounded-xl p-5">
+                    <h4 class="text-2xl">Please Withdraw</h4>
+                    <input class="w-9/12 block mb-2 pl-2" type="email" name="" id="withdraw-amount" placeholder="Account you want to Withdraw">
+                        <button id="Withdraw" class="bg-blue-500 text-white py-1 px-3 rounded font-semibold hover:bg-sky-800">Withdraw</button>
+                </div>
+        </section>
+    </main>
+</body>
+</html>
